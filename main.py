@@ -6,7 +6,7 @@ import platform
 
 os = platform.system()    
 username_pos = pyautogui.locateCenterOnScreen('images/'+os+'/username.png')
-sword_pos = pyautogui.locateCenterOnScreen('images/'+os+'/password.png')
+password_pos = pyautogui.locateCenterOnScreen('images/'+os+'/password.png')
 connect_pos = pyautogui.locateCenterOnScreen('images/'+os+'/connect.png')
 
 # replace username and password with your credentials
